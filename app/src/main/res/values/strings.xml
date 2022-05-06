@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Sliide</string>
+    <string name="something_went_wrong">Something went wrong</string>
+    <string name="add_user">Add user</string>
+    <string name="cancel">Cancel</string>
+    <string name="enter_name">Enter name</string>
+    <string name="enter_email">Enter email</string>
+    <string name="enter_valid_input">Please enter valid input</string>
+    <string name="remove_user_confirmation">Are you sure you want to remove this user?</string>
+    <string name="ok">OK</string>
+</resources>

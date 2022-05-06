@@ -1,0 +1,33 @@
+ext {
+
+    retrofit_version = "2.9.0"
+    hilt_version = "2.38.1"
+    navigation_version = "2.4.2"
+
+    general = [
+            timber: "com.jakewharton.timber:timber:5.0.1",
+            ktx   : "androidx.core:core-ktx:1.7.0",
+    ]
+
+    navigation = [
+            fragment: "androidx.navigation:navigation-fragment-ktx:$navigation_version",
+            ui      : "androidx.navigation:navigation-ui-ktx:$navigation_version",
+    ]
+
+    networking = [
+            retrofit     : "com.squareup.retrofit2:retrofit:$retrofit_version",
+            gsonConverter: "com.squareup.retrofit2:converter-gson:$retrofit_version",
+            logging      : "com.squareup.okhttp3:logging-interceptor:4.7.2",
+            coroutines   : "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.1",
+    ]
+
+    di = [
+            hilt        : "com.google.dagger:hilt-android:$hilt_version",
+            hiltCompiler: "com.google.dagger:hilt-compiler:$hilt_version",
+    ]
+
+    testing = [
+            junit: "junit:junit:4.13.2",
+            mockk: "io.mockk:mockk:1.12.3"
+    ]
+}
